@@ -19,7 +19,12 @@ Connect it all up Run the provisioning script Add the device to the DB Make sure
 Before starting provisioning, the Vision device must be connected to the Winnow network (ideally with an Ethernet cable, not WiFi, for best download speeds), and powered up.
 The laptop running the provisioning script must then be connected to the Vision device using the tablet Ethernet port.
 
-
+#### Tech
+- Ubuntu subsystem
+- Docker
+- Python
+- Windows
+- Excel-online
 #### Configuring a laptop to run the provisioning script
 In order to perform the provisioning, the laptop used must be prepared with specific software and configuration files for the devices as below.
 1. Please install the necessary programs before provisioning
@@ -40,7 +45,7 @@ NOTE! This logging of device info is really important, since we otherwise don't 
 Before the Vision software can finish downloading, the new device must be added to the Vision DB. This is currently a manual step done by the Vision development team.
 Inform the database keepers ( , if he can't be reached  or ) that a new device is being added Michael Berryman David Woosnam Mark Haynes and provide the Device ID along with the client name.
 
-#### Make sure it all works:
+#### Make sure it all works 
 Download of the Vision software will take about 10 minutes. Once done, you will be able to see a number of services (containers) running on the device.
 Log into the box and see if docker is still downloading stuff by running Current_containers_running.exe.
 ------
