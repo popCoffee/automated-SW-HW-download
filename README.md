@@ -45,10 +45,12 @@ NOTE! This logging of device info is really important, since we otherwise don't 
 Before the Vision software can finish downloading, the new device must be added to the Vision DB. This is currently a manual step done by the Vision development team.
 Inform the database keepers ( , if he can't be reached  or ) that a new device is being added Michael Berryman David Woosnam Mark Haynes and provide the Device ID along with the client name.
 
-#### Make sure it all works 
+#### Make sure it all works
+
 Download of the Vision software will take about 10 minutes. Once done, you will be able to see a number of services (containers) running on the device.
 Log into the box and see if docker is still downloading stuff by running Current_containers_running.exe.
-------
+_____________
+
 For docker stacks 21 (configuration for closed bins) 22 (configuration for open bins), if the download is completed, expect about 11 containers
 running as per the list above (version numbers, dates, up time etc may change).
 Between the box being provisioned and updating the database, it is possible the downloader may pause and not download all the images for the containers.
