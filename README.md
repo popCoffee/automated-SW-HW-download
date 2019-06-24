@@ -43,7 +43,7 @@ NOTE! This logging of device info is really important, since we otherwise don't 
 
 #### Add the device to the Vis DB:
 Before the Vision software can finish downloading, the new device must be added to the Vision DB. This is currently a manual step done by the Vision development team.
-Inform the database keepers ( , if he can't be reached  or ) that a new device is being added Michael Berryman David Woosnam Mark Haynes and provide the Device ID along with the client name.
+Inform the database keepers ( , if he can't be reached  or ) that a new device is being addedperson - person and provide the Device ID along with the client name.
 
 #### Make sure it all works
 
