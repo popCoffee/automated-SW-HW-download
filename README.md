@@ -1,7 +1,7 @@
 # automated-SW-HW-download
 This repository contains the automated program used to build and ensure the download of software onto a linux-based and Nvidia chip for CV processing.
 
-© 2018
+© 2019
 
 ### Notes
 There are multiple steps to installing this program on Windows. 
